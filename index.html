@@ -14,7 +14,6 @@
     <p style="font-size: 3em">🎉</p>
 </main>
 <script>
-    const url = 'https://link-dev.moneyoyo.org/v1/conv/pxl';
     (() => {
         "use strict";
         !function (e, n) {
@@ -32,7 +31,7 @@
             c && r.set("mnyy_uniq", c);
             const o = t("mnyy_prd");
             o && r.set("mnyy_prd", o), window.fetch(e + "/v1/conv/pxl/?" + r.toString(), {mode: "cors"})
-        }(url, "mnyyclid")
+        }("https://link-dev.moneyoyo.org", "mnyyclid")
     })();
 </script>
 </body>
