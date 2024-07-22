@@ -30,7 +30,7 @@
             const c = t("mnyy_uniq", !0);
             c && r.set("mnyy_uniq", c);
             const o = t("mnyy_prd");
-            o && r.set("mnyy_prd", o), window.fetch(e + "/v1/conv/pxl/?" + r.toString(), {mode: "cors"})
+            o && r.set("mnyy_prd", o), window.fetch(e + "/v1/conv/pxl?" + r.toString(), {mode: "cors"})
         }("https://link-dev.moneyoyo.org", "mnyyclid")
     })();
 </script>
